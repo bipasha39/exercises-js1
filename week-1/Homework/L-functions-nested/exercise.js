@@ -1,15 +1,16 @@
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
+let a = 12;
+let b = 5;
 
-function mentors(name){
-    let uppercase = name.toUpperCase();
-    return "HELLO " + uppercase;
+function countProcents(a,b){
+    let procents = Math.round(a/(a+b)*100);
+    return procents;
 }
-console.log(mentors(mentor1));
-console.log(mentors(mentor2));
-console.log(mentors(mentor3));
-console.log(mentors(mentor4));
-console.log(mentors(mentor5));
+function getMessage(text, a, b) {
+    let procents = countProcents(a, b);
+    let message = text + procents + '%';
+    return message;
+  }
+  let text1 = getMessage('Percentage students:', a, b);
+  console.log(text1);
+  let text2 = getMessage('Percentage mentors:', b, a);
+  console.log(text2);
