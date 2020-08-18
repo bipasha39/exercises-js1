@@ -5,3 +5,5 @@ function greetingFcn(name, greetingMsg) {
 
 let result = greetingFcn("Hello everyone my name is", "Bips")
 console.log(result);
+
+
