@@ -1,5 +1,5 @@
 function numberChecker(num) {
-  if (30 > 20) {
+  if (num > 20) {
     return `${num} is greater than 20`;
   } else if (num === 20) {
     return `${num} is equal to 20`;
@@ -9,4 +9,4 @@ function numberChecker(num) {
     return `${num} isn't even a number :(`;
   }
 }
-console.log(numberChecker(num));
+console.log(numberChecker(30))
