@@ -1,24 +1,53 @@
-/*
+/** 
   BOOLEAN WITH COMPARISON OPERATORS
   ---------------------------------
   Using comparison operators complete the unfinished statements.
   The variables should have values that match the expected results.
 */
 
-var studentCount = 16;
-var mentorCount = 9;
-var moreStudentsThanMentors; // finish this statement
 
-var roomMaxCapacity = 25;
-var enoughSpaceInRoom; // finish this statement
 
-var personA = "Daniel";
-var personB = "Irina";
-var sameName; // finish this statement
+let studentCount = 16;
+let mentorCount = 9;
+let moreStudentsThanMentors;
+if (studentCount > mentorCount) {
+  moreStudentsThanMentors = true;
+}
+else {
+  moreStudentsThanMentors = false;
+}
+
+
+let sum = (studentCount + mentorCount);
+let roomMaxCapacity = 25;
+
+let enoughSpaceInRoom; 
+if(sum <= roomMaxCapacity) {
+  enoughSpaceInRoom = true;
+}
+ else {
+  enoughSpaceInRoom = false;
+ }
+
+// finish this statement
+
+let personA = "Daniel";
+let personB = "Irina";
+let sameName; 
+
+if(personA !== personB){
+  sameName = false;
+}
+else{
+  sameName = true;
+}
+
+// finish this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE
-  --------------------------- */
+  --------------------------- 
+  */
 console.log("Are there more students than mentors?", moreStudentsThanMentors);
 console.log(
   "Is there enough space in the room for all students and mentors?",
