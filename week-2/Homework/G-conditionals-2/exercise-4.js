@@ -7,9 +7,9 @@
 
   Hint: Google how to check if a string contains a word
 */
-let name = "code"
+let word = "code"
 function containsCode(sentence) {
-  if (name.includes(sentence === "code")){
+  if (sentence.includes(word)){
     return true;
   }
   else {
