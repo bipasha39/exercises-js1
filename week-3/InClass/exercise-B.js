@@ -4,11 +4,11 @@ let name2  = ["Alexy","Amara","Annu"];
 let classmate = name1.concat(name2);
 console.log(classmate);
 
-name1.sort();
-console.log(name1);
+classmate.sort();
+console.log(classmate);
 
 function className(name,name1array){
-    let resut = name1.includes(name);
+    let result = name1array.includes(name);
 
 
     if(result === true){
@@ -18,6 +18,7 @@ function className(name,name1array){
     return `${name}  is  not at the class`
 }
 }
-console.log(className("Amara",name1array));
+
+console.log(className("Amara",classmate));
 
     
